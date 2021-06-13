@@ -1,4 +1,9 @@
 void main() {
+  List<int> arr = List.from([1, 4, 8]);
+
+  arr.asMap().forEach((index, value) => print("$index $value"));
+
+  print(arr);
   var growableList = [1, 2, 3];
   growableList.add(4);
   print(growableList.length);
@@ -48,7 +53,5 @@ void main() {
 
   print(growableList.contains(5));
 
-  [1,2,3,4,5].fillRange(1,2);
-
-
+  [1, 2, 3, 4, 5].fillRange(1, 2);
 }

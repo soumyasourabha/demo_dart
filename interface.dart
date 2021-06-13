@@ -16,10 +16,12 @@ class Guest {
   }
 }
 
+// can not class super.login() method while override the method using implements
 class Admin implements User, Guest {
   void login() {
     print("Admin Login");
   }
+
   void logout() {
     print("Admin Logout");
   }

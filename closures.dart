@@ -7,7 +7,7 @@ void main() {
       return msg;
     }
     print(msg);
-    msg = msg2();
+    msg = msg2(); // closure has the access to the parent scope even if the scope is closed (stack memory)
     print(msg);
   }
   msg1();

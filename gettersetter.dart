@@ -10,6 +10,8 @@ class User {
   var _userId;
   var _userName;
 
+  // User(this._userId, this._userName);
+
   void set userId(userId) => _userId = userId;
   int get userId => _userId;
 
